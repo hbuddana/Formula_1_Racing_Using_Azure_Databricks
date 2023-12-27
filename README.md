@@ -67,7 +67,7 @@ ADF is scheduled to run every Sunday at 10 PM and is designed to skip the execut
 - Azure Databricks
 - Azure Key Vault
 
-### Project Requirements:
+## Project Requirements:
 The requirements for this project are broken down into six different parts which are
 
 #### 1. Data Ingestion Requirements
@@ -92,6 +92,27 @@ The requirements for this project are broken down into six different parts which
 
 - We want to be able to know Driver Standings.
 - We should be able to know Constructor Standings.
+
+#### 4. Data Analysis Requirements
+
+- Find the Dominant drivers.
+- Find the Dominant Teams.
+- Visualize the Outputs.
+- Create Databricks dashboards.
+
+#### 5. Scheduling Requirements
+
+- Scheduled to run every Sunday at 10 pm.
+- Ability to monitor pipelines.
+- Ability to rerun failed pipelines.
+- Ability to set up alerts on failures
+
+#### 6. Other Non-Functional Requirements
+
+- Ability to delete individual records
+- Ability to see history and time travel
+- Ability to roll back to a previous version
+
 
 
 
