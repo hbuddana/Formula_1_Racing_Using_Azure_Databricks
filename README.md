@@ -70,41 +70,28 @@ ADF is scheduled to run every Sunday at 10 PM and is designed to skip the execut
 ### Project Requirements:
 The requirements for this project are broken down into six different parts which are
 
-The requirements for this project are broken down into six different parts which are
+## 1. Data Ingestion Requirements
 
-1. Data Ingestion Requirements
 - Ingest all 8 files into Azure data lake.
 - Ingested data must have the same schema applied.
 - Ingested data must have audit columns.
-- Ingested data must be stored in columnar format (i.e. parquet).
+- Ingested data must be stored in columnar format (i.e., parquet).
 - We must be able to analyze the ingested data via SQL.
 - Ingestion Logic must be able to handle the incremental load.
-2. Data Transformation Requirements
-Join the key information required for reporting to create a new table.
-Join the key information required for analysis to create a new table.
-Transformed tables must have audit columns.
-We must be able to analyze the transformed data via SQL.
-Transformed data must be stored in columnar format (i.e. parquet).
-Transformation logic must be able to handle the incremental load.
-4. Data Reporting Requirements
-We want to be able to know Driver Standings.
-We should be able to know Constructor Standings as well.
-5. Data Analysis Requirements
-Find the Dominant drivers.
-Find the Dominant Teams.
-Visualize the Outputs.
-Create Databricks dashboards.
-6. Scheduling Requirements
-Scheduled to run every Sunday at 10 pm.
-Ability to monitor pipelines.
-Ability to rerun failed pipelines.
-Ability to set up alerts on failures
-7. Other Non-Functional Requirements
-Ability to delete individual records
-Ability to see history and time travel
-Ability to roll back to a previous version
 
+## 2. Data Transformation Requirements
 
+- Join the key information required for reporting to create a new table.
+- Join the key information required for analysis to create a new table.
+- Transformed tables must have audit columns.
+- We must be able to analyze the transformed data via SQL.
+- Transformed data must be stored in columnar format (i.e., parquet).
+- Transformation logic must be able to handle the incremental load.
+
+## 3. Data Reporting Requirements
+
+- We want to be able to know Driver Standings.
+- We should be able to know Constructor Standings.
 
 
 
