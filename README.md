@@ -113,11 +113,29 @@ The requirements for this project are broken down into six different parts which
 - Ability to see history and time travel
 - Ability to roll back to a previous version
 
+## Visual Analysis
+![1](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/b72ef606-796f-4d21-adac-dd7a2f25e718)
+
+
+
+![2](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/62bfa2dc-ae8e-495c-8d00-10ca416f79f4)
 
 
 
 
 
+![3](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/3c229390-4dd9-4535-98b6-f0e15b49377a)
 
 
+
+
+![4](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/91ca24fb-a5ce-4717-879a-f9177f8b27a4)
+
+
+
+
+
+![5](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/0436cf54-ab09-45e4-b721-c4b83c6426f9)
+
+![6](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/4e02d1a0-3403-4119-a747-54147f9c9a10)
 
