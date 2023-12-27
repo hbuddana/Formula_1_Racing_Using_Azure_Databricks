@@ -17,6 +17,7 @@ The results of each race are used to calculate driver standings and constructor 
 ![ov4](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/ae620fcc-5b65-4c4b-8508-8aca16870026)
 
 ## ER Diagram
+The structure of the database is shown in the following ER Diagram and explained in the [Database User Guide](http://ergast.com/docs/f1db_user_guide.txt)
 ![ER](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/84074fe4-1916-47c3-944e-8b414541cc8c)
 
 
