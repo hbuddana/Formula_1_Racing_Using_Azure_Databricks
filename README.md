@@ -73,12 +73,12 @@ The requirements for this project are broken down into six different parts which
 The requirements for this project are broken down into six different parts which are
 
 1. Data Ingestion Requirements
-Ingest all 8 files into Azure data lake.
-Ingested data must have the same schema applied.
-Ingested data must have audit columns.
-Ingested data must be stored in columnar format (i.e. parquet).
-We must be able to analyze the ingested data via SQL.
-Ingestion Logic must be able to handle the incremental load.
+- Ingest all 8 files into Azure data lake.
+- Ingested data must have the same schema applied.
+- Ingested data must have audit columns.
+- Ingested data must be stored in columnar format (i.e. parquet).
+- We must be able to analyze the ingested data via SQL.
+- Ingestion Logic must be able to handle the incremental load.
 2. Data Transformation Requirements
 Join the key information required for reporting to create a new table.
 Join the key information required for analysis to create a new table.
