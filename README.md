@@ -11,3 +11,7 @@ The F1 season typically includes 20 to 23 races, also known as Grands Prix. Safe
 On Saturdays, a qualifying round is held to determine the starting positions of drivers on the grid for the Sunday race. The races themselves consist of a variable number of laps, usually ranging from 50 to 70 laps, depending on the circuit's length. Pit stops are available during races for tire changes or car adjustments.
 
 The results of each race are used to calculate driver standings and constructor standings. The driver who leads the driver standings at the end of the season is crowned the drivers' champion, while the team that leads the constructor standings becomes the constructors' champion.
+
+## Solution Architecture for the Problem Statement
+
+![ov4](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/ae620fcc-5b65-4c4b-8508-8aca16870026)
