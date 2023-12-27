@@ -61,6 +61,12 @@ ADF is scheduled to run every Sunday at 10 PM and is designed to skip the execut
 
 ![adf](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/a927c96d-1417-4678-a203-9dfdb993c324)
 
+### Azure Resources Used for this Project:
+- Azure Data Lake Storage
+- Azure Data Factory
+- Azure Databricks
+- Azure Key Vault
+
 
 
 
