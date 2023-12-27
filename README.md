@@ -47,6 +47,21 @@ We are referring to open-source data from the website Ergast Developer API. Data
 
 - In the Silver zone, the ingested data undergoes further transformation through an Azure Databricks SQL notebook. This involves operations such as joining and aggregating tables to prepare the data for analytical and visualization purposes. Ultimately, the results of these transformations are loaded into the Gold zone, which serves as the analytical zone for further analysis and reporting.
 
+###  ETL pipeline:
+ETL flow comprises two parts:
+
+- Ingestion: Process data from Bronze zone to Silver zone
+- Transformation: Process data from Silver zone to Gold zone
+
+In the first pipeline, data stored in JSON and CSV format is read using Apache Spark with minimal transformation saved into a delta table. The transformation includes dropping columns, renaming headers, applying schema, and adding audited columns (ingestion_date and file_source) and file_date as the notebook parameter. This serves as a dynamic expression in ADF.
+
+In the second pipeline, Databricks SQL reads preprocessed delta files and transforms them into the final dimensional model tables in delta format. Transformations performed include dropping duplicates, joining tables using join, and aggregating using a window.
+
+ADF is scheduled to run every Sunday at 10 PM and is designed to skip the execution if there is no race that week. We have another pipeline to execute the ingestion pipeline and transformation pipeline using file_date as the parameter for the tumbling window trigger.
+
+![adf](https://github.com/hbuddana/Formula_1_Racing_Using_Azure_Databricks/assets/65592890/a927c96d-1417-4678-a203-9dfdb993c324)
+
+
 
 
 
